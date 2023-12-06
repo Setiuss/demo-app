@@ -1,7 +1,7 @@
 # YAML manifest ✨
 
 | NAME                   | PROMPT                  |DESCRIPTION                                                      |EXAMPLE                                                                                                |
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|------------------------|-------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | app                    | basic                   | basic example template for a simple web application deployment  | [app.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app.yaml)                               |
 | app-livenessProbe      | livenessProbe           | liveness probe to check the liveness of the application         | [app-livenessProbe.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-livenessProbe.yaml)   |
 | app-readinessProbe     | readinessProbe          | readiness probe to check the readiness of the application       | [app-readinessProbe.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-readinessProbe.yaml) |
