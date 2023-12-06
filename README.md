@@ -1,13 +1,13 @@
-# yaml ✨
+# YAML manifest ✨
 
-|NAME                   |PROMPT           |DESCRIPTION              |EXAMPLE        |
--------------------------------------------------------------------------------------
-app.yaml                |
-app-livenessProbe.yaml  |
-app-readinessProbe.yaml |
-app-volumeMounts.yaml   |
-app-cronjob.yaml        |
-app-job.yaml            |
-app-multicontainer.yaml |
-app-resources.yaml      |
-app-secret-env.yaml     |
+| NAME                   | PROMPT                  |DESCRIPTION                                                      |EXAMPLE                                                                                                |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| app                    | basic                   | basic example template for a simple web application deployment  | [app.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app.yaml)                               |
+| app-livenessProbe      | livenessProbe           | liveness probe to check the liveness of the application         | [app-livenessProbe.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-livenessProbe.yaml)   |
+| app-readinessProbe     | readinessProbe          | readiness probe to check the readiness of the application       | [app-readinessProbe.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-readinessProbe.yaml) |
+| app-volumeMounts       | volumeMounts            | volume mounts to the container                                  | [app-volumeMounts.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-volumeMounts.yaml)     |
+| app-cronjob            | CronJob                 | used to define a job that runs on a schedule                    | [app-cronjob.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-cronjob.yaml)               |
+| app-job                | Job                     | used to define a one-off task or job that runs to completion    | [app-job.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-job.yaml)                       |
+| app-multicontainer     | multicontainer          | used to define a set of identical pods with multiple containers | [app-multicontainer.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-multicontainer.yaml) |
+| app-resources          | resources               | used to define a set of identical pods                          | [app-resources.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-resources.yaml)           |
+| app-secret-env         | secret-env              | used to inject Secret environment variables into a container    | [app-secret-env.yaml](https://github.com/Setiuss/demo-app/blob/main/yaml/app-secret-env.yaml)         |
