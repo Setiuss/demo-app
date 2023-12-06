@@ -1,2 +1,1 @@
-# demo-app
-templates yaml, helm
+# Kubectl OpenAI plugin ✨
